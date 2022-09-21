@@ -1,0 +1,44 @@
+/* =========== RESET ==================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+/* =========== BASE ==================================*/
+body {
+    font: 400 1rem 'DM Sans', sans-serife;
+}
+
+h1 {
+    font: 700 1.875rem 'Poppins', sans-serife;
+}
+
+/* =========== LAYOUT ==================================*/
+#header {
+    height: 4.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #B9686F;
+}
+
+.container {
+    width: 100%;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
