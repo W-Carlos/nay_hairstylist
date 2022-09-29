@@ -77,10 +77,20 @@ body {
   height: 1px;
   background: linear-gradient(
     270deg,
-    hsl(0deg 36% 57%) 0%,
-    rgb(244 204 210 / 34%) 100%
+    hsl(0deg 36% 57%) ,
+    rgb(244 204 210 / 34%)
   );
 }
+
+.divider-2 {
+  height: 1px;
+  background: linear-gradient(
+    270deg,
+    rgb(244 204 210 / 34%),
+    hsl(0deg 36% 57%) 
+  );
+}
+
 
 /* =========== LAYOUT ==================================*/
 .container {
@@ -90,6 +100,10 @@ body {
 
 .section {
   padding: 5rem 0;
+}
+
+.section .title {
+  margin-bottom: 1rem;
 }
 
 .grid {
@@ -239,3 +253,24 @@ nav.show div.icon-close {
 #home .text p {
   margin-bottom: 2rem;
 }
+
+/* =========== ABOUT ==================================*/
+#about {
+  background: white;
+}
+
+#about .container {
+  margin: 0;
+}
+
+#about .image img {
+  border-radius: 0.25rem;
+  box-shadow: 13px 12px 14px #00000021;
+}
+
+#about .text {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+
